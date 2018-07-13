@@ -2,6 +2,9 @@ require("dotenv").config();
 
 var keys = require("./keys.js");
 
+// var client = new Twitter(keys.twitter);
+// var spotify = new Spotify(keys.spotify);
+
 //npm twitter api package install
 var Twitter = require('twitter');
 
@@ -63,12 +66,11 @@ switch(command){
 }
 
 //Twitter function
-function getTweets(){
+const getTweets = () => {
+  var client = new Twitter(keys.twitter);
+	var params = {screen_name: 'LCode36', count:20};
 
-	var client = new Twitter(keys.twitter);
-	var params = {screen_name: 'LunaCode36', count:20};
-
-		client.get('statuses/user_timeline', params, function(error, tweets, response) {
+		client.get('statuses/user_timeline', params,(error, tweets, response) => {
   	if (!error) {
 
 			for (i=0; i<tweets.length; i++){
@@ -80,26 +82,29 @@ function getTweets(){
 			console.log('twitter error');
 		}
 	});
-}
+};
+
+// console.log(response.tracks.items[0].album.artists);
 
 //Spotify function
 function mySpotify (song){
 
-		var spotify = new Spotify(keys.spotify);
-		spotify.search({ type: 'track', query: song}, function(err, data) {
-  	if (!err) {
-    	for (var i = 0; i < data.length; i++) {
-
-        console.log(data);
-    		// console.log("Artist: " + );
-				// console.log("Song: " + );
-				// console.log("Preview URL: " + );
-				// console.log("Album: " + );
-				// console.log("-----------------------");
-			}
-		    }else{
-		      console.log('spotify error');
-		    }
+    var spotify = new Spotify(keys.spotify);
+		spotify.search({ type: 'track', query: song, limit:1}, function(err, data) {
+    console.log(data.tracks.items[0]);
+  	// if (!err) {
+    // 	for (var i = 0; i < data.length; i++) {
+    //
+    //     console.log(data);
+    // 		// console.log("Artist(s): " + );
+		// 		// console.log("Song: " + );
+		// 		// console.log("Preview link: " + );
+		// 		// console.log("Album: " + );
+		// 		// console.log("-----------------------");
+		// 	}
+		//     }else{
+		//       console.log('spotify error');
+		//     }
     });
 }
 
