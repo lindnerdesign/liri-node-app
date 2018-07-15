@@ -1,0 +1,33 @@
+
+Tweet: Everyone loves memes...
+Created at: Sat Jul 07 22:50:15 +0000 2018
+--------------------------------------
+Tweet: Maybe I'll add in some more memes...
+Created at: Sat Jul 07 22:50:07 +0000 2018
+--------------------------------------
+Tweet: Im going to just keep going with these, I need 20 of them.
+Created at: Sat Jul 07 22:49:48 +0000 2018
+--------------------------------------
+Tweet: Yet another tweet for my Node.js homework. https://t.co/QNvCQBy5or
+Created at: Sat Jul 07 22:49:12 +0000 2018
+--------------------------------------
+Tweet: Adding another tweet for my Node.js homework.
+Created at: Sat Jul 07 22:48:29 +0000 2018
+--------------------------------------
+Tweet: First tweet ever! https://t.co/wPp3RcIvlQ
+Created at: Sat Jul 07 22:47:47 +0000 2018
+--------------------------------------
+Artist(s): Macklemore
+Song name: Glorious (feat. Skylar Grey)
+Preview link: https://p.scdn.co/mp3-preview/6b6ff3c8c72111b85b011d5ce8d573cbd2a8d8c9?cid=72f156754e324e42b1be6ec59407ee3f
+Album name: GEMINI
+-----------------------
+Movie title: The Land Before Time
+Release date: 1988
+IMDB rating: 7.4
+Rotten Tomatoes rating: 70%
+Country: USA, Ireland
+Language: English
+Plot: An orphaned brontosaurus teams up with other young dinosaurs in order to reunite with their families in a valley.
+Actors: Judith Barsi, Pat Hingle, Gabriel Damon, Helen Shaver
+-----------------------

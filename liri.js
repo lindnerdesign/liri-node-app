@@ -44,7 +44,7 @@ switch(command){
 				if(input){
 					mySpotify(input);
 				}else{
-					mySpotify('the sign');
+					mySpotify('glorious');
 				}
 		break;
 
@@ -65,80 +65,104 @@ switch(command){
   	break;
 }
 
+// Log data to log.txt file (Bonus)
+function logData (info){
+  fileSystem.appendFile('log.txt', info , (error) => {
+
+  if (error) {
+    console.log("Logging Error :" + error);
+  }
+});
+
+}
+
 //Twitter function
 function getTweets () {
   var client = new Twitter(keys.twitter);
 	var params = {screen_name: 'LCode36', count:20};
 
-		client.get('statuses/user_timeline', params, function(error, tweets, response) {
+		client.get('statuses/user_timeline', params,(error, tweets, response) => {
   	if (!error) {
 
 			for (i=0; i<tweets.length; i++){
-						console.log('Created at: '+ tweets[i].created_at);
-						console.log('Text: ' + tweets[i].text);
-						console.log('--------------------------------------');
-					}
-  	} else {
-			console.log('twitter error');
-		}
+
+        var msgTweets = 'Tweet: ' + tweets[i].text + '\n'
+         + 'Created at: ' + tweets[i].created_at + '\n'
+				 + '--------------------------------------' + '\n'
+         console.log(msgTweets);
+         console.log(logData(msgTweets));
+       }
+
+  	   } else {
+			   console.log('twitter error');
+		   }
 	});
-};
+}
 
 //Spotify function
 function mySpotify (song) {
 
     var spotify = new Spotify(keys.spotify);
-		spotify.search({ type: 'track', query: song, limit:1}, function(err, data) {
+		spotify.search({ type: 'track', query: song, limit:1},(err, data) => {
     // console.log(data.tracks.items[0]);
   	 if (!err) {
        for (var i = 0; i < data.tracks.items.length; i++) {
          var songObject = data.tracks.items[i];
 
-         console.log("Artist(s): " + songObject.artists[0].name);
-  		   console.log("Song name: " + songObject.name);
-		     console.log("Preview link: " + songObject.preview_url);
-		     console.log("Album name: " + songObject.album.name);
-		     console.log("-----------------------");
-		 }
-		   }else{
-		     console.log('spotify error');
-		   }
+         var msgSpotify = "Artist(s): " + songObject.artists[0].name + '\n'
+  		   + "Song name: " + songObject.name + '\n'
+		     + "Preview link: " + songObject.preview_url + '\n'
+		     + "Album name: " + songObject.album.name + '\n'
+		     + "-----------------------" + '\n'
+         console.log(msgSpotify);
+         console.log(logData(msgSpotify));
+		    }
+
+		    } else {
+		      console.log('spotify error');
+		    }
     });
 }
 
 //omdi movies function
-function myMovies (movie){
+function myMovies (movie) {
   var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
-    request(queryUrl, function(error, response, data){
+    request(queryUrl,(error, response, data) =>{
 
 	      if (!error && response.statusCode === 200) {
           var data = JSON.parse(data);
 
+          if (movie.Response === 'False'){
+            console.log("Error: " + movie.Error)
+            return
+          }
           // console.log(data);
-          console.log('Movie title: ' +  data.Title);
-          console.log('Release date: ' + data.Year);
-          console.log('IMDB rating: ' + data.imdbRating);
-          console.log('Rotten Tomatoes rating: ' + data.Ratings[1].Value);
-          console.log('Country: ' + data.Country);
-          console.log('Language: ' + data.Language);
-          console.log('Plot: ' + data.Plot);
-          console.log('Actors: ' + data.Actors);
-          console.log("-----------------------");
+          var msgMovie = 'Movie title: ' +  data.Title + '\n'
+          + 'Release date: ' + data.Year + '\n'
+          + 'IMDB rating: ' + data.imdbRating + '\n'
+          + 'Rotten Tomatoes rating: ' + data.Ratings[1].Value + '\n'
+          + 'Country: ' + data.Country + '\n'
+          + 'Language: ' + data.Language + '\n'
+          + 'Plot: ' + data.Plot + '\n'
+          + 'Actors: ' + data.Actors + '\n'
+          + "-----------------------" + '\n'
+          console.log(msgMovie);
+          console.log(logData(msgMovie));
 
-        } else {
+        } else{
           console.log('OMDB error')
 
-        } if (movie === 'Mr. Nobody'){
-            console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-            console.log("It's on Netflix!");
+        } if (movie === 'Mr.+Nobody') {
+            var mrNoBody = "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/" + '\n'
+            + "It's on Netflix!"
         }
     });
 }
 
 //text readme file function
-function randomText (){
-    fileSystem.readFile('random.txt', 'utf8', function(error, data){
+function randomText () {
+    fileSystem.readFile('random.txt', 'utf8',(error, data) =>{
       var txt = data.split(',');
 
       mySpotify(txt[1]);
