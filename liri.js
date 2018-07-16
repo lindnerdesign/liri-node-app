@@ -67,7 +67,7 @@ function logData (info){
   fileSystem.appendFile('log.txt', info , (error) => {
 
   if (error) {
-    console.log("Logging Error :" + error);
+    console.log("Logging error :" + error);
   }
 });
 
@@ -129,12 +129,13 @@ function myMovies (movie) {
 
 	      if (!error && response.statusCode === 200) {
           var data = JSON.parse(data);
+          // console.log(data);
 
           if (movie.Response === 'False'){
-            console.log("Error: " + movie.Error)
-            return
+          console.log("Error: " + movie.Error)
+          return
           }
-          // console.log(data);
+
           var msgMovie = 'Movie title: ' +  data.Title + '\n'
           + 'Release date: ' + data.Year + '\n'
           + 'IMDB rating: ' + data.imdbRating + '\n'
@@ -147,6 +148,12 @@ function myMovies (movie) {
           console.log(msgMovie);
           console.log(logData(msgMovie));
 
+          //TODO loop though ratings array if the Rotten Tomatos Rating errors out
+          // if (data.Ratings.length === false){
+          //    for (var i = 0; i < data.Ratings.length; i++) {
+          //   }
+          // }
+
         } else{
           console.log('OMDB error')
           }
@@ -157,6 +164,7 @@ function myMovies (movie) {
 function randomText () {
     fileSystem.readFile('random.txt', 'utf8',(error, data) =>{
       var txt = data.split(',');
+      console.log(logData(txt));
 
       mySpotify(txt[1]);
     });
