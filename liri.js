@@ -140,6 +140,13 @@ function myMovies (movie) {
           + 'Release date: ' + data.Year + '\n'
           + 'IMDB rating: ' + data.imdbRating + '\n'
           + 'Rotten Tomatoes rating: ' + data.Ratings[1].Value + '\n'
+
+          //TODO loop though ratings array if the Rotten Tomatos Rating errors out
+              // if (data.Ratings === false){
+              //   console.log("error");
+                //for loop here to go to next ratings as a default
+              // }
+
           + 'Country: ' + data.Country + '\n'
           + 'Language: ' + data.Language + '\n'
           + 'Plot: ' + data.Plot + '\n'
@@ -149,10 +156,6 @@ function myMovies (movie) {
           console.log(logData(msgMovie));
 
           //TODO loop though ratings array if the Rotten Tomatos Rating errors out
-          // if (data.Ratings.length === false){
-          //    for (var i = 0; i < data.Ratings.length; i++) {
-          //   }
-          // }
 
         } else{
           console.log('OMDB error')
