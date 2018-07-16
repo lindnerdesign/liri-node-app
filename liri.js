@@ -1,9 +1,7 @@
 require("dotenv").config();
 
+//file holding keys 'holder'
 var keys = require("./keys.js");
-
-// var client = new Twitter(keys.twitter);
-// var spotify = new Spotify(keys.spotify);
 
 //npm twitter api package install
 var Twitter = require('twitter');
@@ -17,14 +15,13 @@ var request = require("request");
 //for random.txt and log.txt (bonus)
 var fileSystem = require("fs");
 
-//This makes it possible to pass multi-words rather then one word requests
 var nodeArgv = process.argv;
 var command = process.argv[2];
 
 //movie or song
 var input = "";
 
-//multiple word arguments
+//This makes it possible to pass multi-words rather then one word requests
 for (var i=3; i<nodeArgv.length; i++){
   if(i>3 && i<nodeArgv.length){
     input = input + "+" + nodeArgv[i];
@@ -61,7 +58,7 @@ switch(command){
 		break;
 
 		default:
-    	console.log("Enter request: my-tweets, spotify-this-song, movie-this, do-what-it-says");
+    	console.log("Enter request: my-tweets, spotify-this-song + your song, movie-this + your movie, do-what-it-says");
   	break;
 }
 
@@ -152,11 +149,7 @@ function myMovies (movie) {
 
         } else{
           console.log('OMDB error')
-
-        } if (movie === 'Mr.+Nobody') {
-            var mrNoBody = "If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/" + '\n'
-            + "It's on Netflix!"
-        }
+          }
     });
 }
 

@@ -31,3 +31,140 @@ Language: English
 Plot: An orphaned brontosaurus teams up with other young dinosaurs in order to reunite with their families in a valley.
 Actors: Judith Barsi, Pat Hingle, Gabriel Damon, Helen Shaver
 -----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Mr. Nobody
+Release date: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------
+Movie title: Hook
+Release date: 1991
+IMDB rating: 6.7
+Rotten Tomatoes rating: 29%
+Country: USA
+Language: English
+Plot: When Captain Hook kidnaps his children, an adult Peter Pan must return to Neverland and reclaim his youthful spirit in order to challenge his old enemy.
+Actors: Dustin Hoffman, Robin Williams, Julia Roberts, Bob Hoskins
+-----------------------
+Movie title: Moana
+Release date: 2016
+IMDB rating: 7.6
+Rotten Tomatoes rating: 96%
+Country: USA
+Language: English
+Plot: In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.
+Actors: Auli'i Cravalho, Dwayne Johnson, Rachel House, Temuera Morrison
+-----------------------
+Movie title: The Princess Bride
+Release date: 1987
+IMDB rating: 8.1
+Rotten Tomatoes rating: 97%
+Country: USA
+Language: English
+Plot: While home sick in bed, a young boy's grandfather reads him a story called The Princess Bride.
+Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest
+-----------------------
+Tweet: Everyone loves memes...
+Created at: Sat Jul 07 22:50:15 +0000 2018
+--------------------------------------
+Tweet: Maybe I'll add in some more memes...
+Created at: Sat Jul 07 22:50:07 +0000 2018
+--------------------------------------
+Tweet: Im going to just keep going with these, I need 20 of them.
+Created at: Sat Jul 07 22:49:48 +0000 2018
+--------------------------------------
+Tweet: Yet another tweet for my Node.js homework. https://t.co/QNvCQBy5or
+Created at: Sat Jul 07 22:49:12 +0000 2018
+--------------------------------------
+Tweet: Adding another tweet for my Node.js homework.
+Created at: Sat Jul 07 22:48:29 +0000 2018
+--------------------------------------
+Tweet: First tweet ever! https://t.co/wPp3RcIvlQ
+Created at: Sat Jul 07 22:47:47 +0000 2018
+--------------------------------------
+Artist(s): Macklemore
+Song name: Glorious (feat. Skylar Grey)
+Preview link: https://p.scdn.co/mp3-preview/6b6ff3c8c72111b85b011d5ce8d573cbd2a8d8c9?cid=72f156754e324e42b1be6ec59407ee3f
+Album name: GEMINI
+-----------------------
+Artist(s): Jeremih
+Song name: The Light
+Preview link: null
+Album name: The Light
+-----------------------
+Artist(s): DJ Samentro
+Song name: Be Humble
+Preview link: https://p.scdn.co/mp3-preview/dc3ba19ad90ec9b7098ecece86b9afdf706423c6?cid=72f156754e324e42b1be6ec59407ee3f
+Album name: Be Humble
+-----------------------
+Artist(s): Backstreet Boys
+Song name: I Want It That Way
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=72f156754e324e42b1be6ec59407ee3f
+Album name: The Hits--Chapter One
+-----------------------
