@@ -70,7 +70,7 @@ function logData (info){
     console.log("Logging error :" + error);
   }
 });
-
+return "";
 }
 
 //Twitter function
@@ -83,9 +83,9 @@ function getTweets () {
 
 			for (i=0; i<tweets.length; i++){
 
-        var msgTweets = 'Tweet: ' + tweets[i].text + '\n'
-         + 'Created at: ' + tweets[i].created_at + '\n'
-				 + '--------------------------------------' + '\n'
+        var msgTweets = `Tweet: ${tweets[i].text}\n`
+         + `Created at: ${tweets[i].created_at}\n`
+				 + `--------------------------------------\n`
          console.log(msgTweets);
          console.log(logData(msgTweets));
        }
@@ -106,11 +106,11 @@ function mySpotify (song) {
        for (var i = 0; i < data.tracks.items.length; i++) {
          var songObject = data.tracks.items[i];
 
-         var msgSpotify = "Artist(s): " + songObject.artists[0].name + '\n'
-  		   + "Song name: " + songObject.name + '\n'
-		     + "Preview link: " + songObject.preview_url + '\n'
-		     + "Album name: " + songObject.album.name + '\n'
-		     + "-----------------------" + '\n'
+         var msgSpotify = `Artist(s): ${songObject.artists[0].name}\n`
+  		   + `Song name: ${songObject.name}\n`
+		     + `Preview link: ${songObject.preview_url}\n`
+		     + `Album name: ${songObject.album.name}\n`
+		     + `-----------------------\n`
          console.log(msgSpotify);
          console.log(logData(msgSpotify));
 		    }
@@ -131,37 +131,24 @@ function myMovies (movie) {
           var data = JSON.parse(data);
           // console.log(data);
 
-          if (movie.Response === 'False'){
-          console.log("Error: " + movie.Error)
-          return
-          }
-
-          var msgMovie = 'Movie title: ' +  data.Title + '\n'
-          + 'Release date: ' + data.Year + '\n'
-          + 'IMDB rating: ' + data.imdbRating + '\n'
-          + 'Rotten Tomatoes rating: ' + data.Ratings[1].Value + '\n'
-
-          //TODO loop though ratings array if the Rotten Tomatos Rating errors out
-              // if (data.Ratings === false){
-              //   console.log("error");
-                //for loop here to go to next ratings as a default
-              // }
-
-          + 'Country: ' + data.Country + '\n'
-          + 'Language: ' + data.Language + '\n'
-          + 'Plot: ' + data.Plot + '\n'
-          + 'Actors: ' + data.Actors + '\n'
-          + "-----------------------" + '\n'
+          var msgMovie = `Movie title: ${data.Title}\n`
+          + `Release date:  ${data.Year}\n`
+          + `IMDB rating: ${data.imdbRating}\n`
+          + `Rotten Tomatoes rating: ${data.Ratings[1].Value}\n`
+          + `Country: ${data.Country}\n`
+          + `Language: ${data.Language}\n`
+          + `Plot: ${data.Plot}\n`
+          + `Actors: ${data.Actors}\n`
+          + `-----------------------\n`;
           console.log(msgMovie);
           console.log(logData(msgMovie));
 
-          //TODO loop though ratings array if the Rotten Tomatos Rating errors out
+        } else {
+          console.log('OMDB error');
+        }
+      });
+  }
 
-        } else{
-          console.log('OMDB error')
-          }
-    });
-}
 
 //text readme file function
 function randomText () {

@@ -17,13 +17,22 @@ Created at: Sat Jul 07 22:48:29 +0000 2018
 Tweet: First tweet ever! https://t.co/wPp3RcIvlQ
 Created at: Sat Jul 07 22:47:47 +0000 2018
 --------------------------------------
-Artist(s): Macklemore
-Song name: Glorious (feat. Skylar Grey)
-Preview link: https://p.scdn.co/mp3-preview/6b6ff3c8c72111b85b011d5ce8d573cbd2a8d8c9?cid=72f156754e324e42b1be6ec59407ee3f
-Album name: GEMINI
+Artist(s): Rob Zombie
+Song name: Living Dead Girl
+Preview link: null
+Album name: Hellbilly Deluxe
+-----------------------
+Movie title: Mr. Nobody
+Release date:  2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 -----------------------
 Movie title: The Land Before Time
-Release date: 1988
+Release date:  1988
 IMDB rating: 7.4
 Rotten Tomatoes rating: 70%
 Country: USA, Ireland
@@ -36,4 +45,3 @@ Song name: I Want It That Way
 Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=72f156754e324e42b1be6ec59407ee3f
 Album name: The Hits--Chapter One
 -----------------------
-
