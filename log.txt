@@ -39,9 +39,3 @@ Country: USA, Ireland
 Language: English
 Plot: An orphaned brontosaurus teams up with other young dinosaurs in order to reunite with their families in a valley.
 Actors: Judith Barsi, Pat Hingle, Gabriel Damon, Helen Shaver
------------------------
-spotify-this-song,"I Want it That Way"Artist(s): Backstreet Boys
-Song name: I Want It That Way
-Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=72f156754e324e42b1be6ec59407ee3f
-Album name: The Hits--Chapter One
------------------------
